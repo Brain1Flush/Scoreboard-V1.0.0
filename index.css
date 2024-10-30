@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h3 {
+    color: aliceblue;
+    text-shadow: 0px 0px 1px black;
+    margin-bottom: 15px;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+
+}
+
+#scoreboard {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126px;
+    text-align: center;
+    margin-top: 1px;
+    background-color: black;
+    width: 155px;
+    height: 120px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centered-elements {
+    margin-left: 10px;
+}
+
+.add-up1 {
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding: 8px;
+    margin-right: 5px;
+    color: #9AABD8;
+    cursor: pointer;
+
+}
+
+.add-up1:hover {
+    color: aqua;
+    background-color: #9AABD8;
+    text-shadow: 0px 0px 5px black;
+}
+
+.newGame {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #9AABD8;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;    
+}
+
+#newGameBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+}
+
+.newGame:hover {
+    background-color: #F94F6D;
+}
